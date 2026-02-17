@@ -100,7 +100,7 @@ header .btn:hover,
   color: var(--dark-grey2);
 }
 .home h3 {
-  font-size: 4rem;
+  font-size: 3em;
   font-weight: bold;
 }
 .home .btn {
@@ -198,6 +198,17 @@ section.cards .card .image .icon {
 }
 .about .icons .icon:last-child {
   border-right: none;
+}
+@media (max-width:37.5em) {
+  .about .text-info .icons {
+    border-top: none;
+    gap: 30px;
+    justify-content: center;
+  }
+  .about .icons .icon {
+    width: 50%;
+    border-right: none;
+  }
 }
 .provide {
   display: flex;
